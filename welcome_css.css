@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.email_head {
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 10px 0;
+}
+
+.email_head a {
+    width: auto;
+}
+
+.email_head a img {
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+
+.email_body {
+
+}
+
+.email_footer {
+
+}
