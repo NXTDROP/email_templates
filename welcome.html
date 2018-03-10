@@ -5,7 +5,139 @@
 
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link type="text/css" rel="stylesheet" href="https://nxtdrop.com/welcome_css.css"/>
+        <style>
+            @media only screen and (max-width: 768px) {
+                .email_head a img {
+                    width: 20% !important;
+                }
+            }
+            
+            @media only screen and (max-width: 414px) {
+                .email_head a img {
+                    width: 30% !important;
+                }
+            }
+            
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, Helvetica, sans-serif;
+                border: 5px solid #aa0000;
+                min-height: 98.77%;
+            }
+            
+            .email_head {
+                width: 100%;
+                background-color: #fcfcfc;
+                padding: 10px 0;
+            }
+            
+            .email_head a {
+                width: auto;
+            }
+            
+            .email_head a img {
+                width: 10%;
+                display: block;
+                margin: auto;
+            }
+            
+            .email_body {
+                width: 70%;
+                margin: 20px auto;
+            }
+            
+            .email_body h1 {
+                font-size: 16px;
+                color: #333232;
+            }
+            
+            .email_body p {
+                font-size: 14px;
+                text-align: center;
+                color: #333232;
+            }
+            
+            .email_body p a {
+                color: #aa0000;
+            }
+            
+            .email_footer p {
+                font-size: 12px;
+                text-align: center;
+                color: #333232;
+            }
+            
+            .email_footer {
+                width: 70%;
+                margin: auto;
+            }
+            
+            a {
+                text-decoration: none;
+            }
+            
+            #login {
+                background: #aa0000;
+                color: #fff;
+                text-align: center;
+                width: 25%;
+                margin: 0 37.5%;
+                padding: 5px;
+                border-radius: 24px;
+                border: 1px solid #aa0000;
+            }
+            
+            #login:hover {
+                background: #fff;
+                color: #aa0000;
+                border: 1px solid #aa0000;
+            }
+            
+            #copy {
+                font-size: 10px;
+                text-align: center;
+                background: #aa0000;
+                color: #fff;
+            }
+            
+            #six {
+                color: #aa0000;
+            }
+            
+            #six:hover {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+            
+            #team {
+                color: #aa0000;
+            }
+            
+            ul {
+                list-style: none;
+                text-align: center;
+                padding: 0;
+                margin: 0;
+            }
+            
+            ul li {
+                display: inline-block;
+            }
+            
+            ul li a p {
+                color: #aa0000;
+            }
+            
+            ul li a p:hover {
+                cursor: pointer;
+                text-decoration: underline
+            }
+
+            .image {
+                width: 35px;
+            }
+        </style>
     </head>
 
     <body>
@@ -25,17 +157,17 @@
 
         <div class="email_footer">
             <p>We look forward to bring a better and safer experience trading items. Thank you for joining us in this journey.</p>
-            <p id="six" title="Toronto, Ontario, Canada">Love from the 6IX</p></br>
+            <p id="six" title="Toronto, Ontario, Canada">Love from the 6IX</p>
+            <ul>
+                <li><p><a href="https://www.instagram.com/nxtdrop/"><img class="image" src="https://nxtdrop.com/img/instagram.png" title="Instagram"/></a></p></li>
+                <li><p><a href="https://www.twitter.com/nxtdrop/"><img class="image" src="https://nxtdrop.com/img/twitter.png" title="Twitter"/></a></p></li>
+            </ul>
+                
             <ul>
                 <li><a href="#"><p title="Unsusbcribe"> Unsuscribe </p></a></li>
                 <li><a href="https://nxtdrop.com/terms"><p title="Terms of Use"> Terms of Use </p></a></li>
                 <li><a href="https://nxtdrop.com/privacy"><p title="Privacy Policy"> Privacy Policy </p></a></li>
                 <li><a href="https://nxtdrop.com/login_signup"><p title="Login"> Login </p></a></li>
-            </ul>
-
-            <ul>
-                <li><p><a href="https://www.instagram.com/nxtdrop/"><img src="https://nxtdrop.com/img/instagram.png" height="25px" title="Instagram"/></a></p></li>
-                <li><p><a href="https://www.twitter.com/nxtdrop/"><img src="https://nxtdrop.com/img/twitter.png" height="25px" title="Twitter"/></a></p></li>
             </ul>
             <p id="copy">&copy; 2018 NXTDROP, INC. All rights reserved.</p>
         </div>
