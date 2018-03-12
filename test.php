@@ -41,7 +41,7 @@
             body {
                 margin: 0;
                 padding: 0;
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: Century, Helvetica, sans-serif;
                 border: 5px solid #aa0000;
                 min-height: 98.77%;
             }
@@ -184,7 +184,7 @@
                 </ul>
     
                 <ul>
-                    <li><a href="nxtdrop.com/unsubscribe/'.$row['email'].'"><p title="Unsubscribe"> Unsubscribe </p></a></li>
+                    <li><a href="https://nxtdrop.com/unsubscribe.php?email='.$row['email'].'"><p title="Unsubscribe"> Unsubscribe </p></a></li>
                     <li><a href="https://nxtdrop.com/terms"><p title="Terms of Use"> Terms of Use </p></a></li>
                     <li><a href="https://nxtdrop.com/privacy"><p title="Privacy Policy"> Privacy Policy </p></a></li>
                     <li><a href="https://nxtdrop.com/login_signup"><p title="Login"> Login </p></a></li>
