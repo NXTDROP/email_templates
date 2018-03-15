@@ -7,7 +7,7 @@
     while ($row = mysqli_fetch_assoc($result)) {
         $from = 'NXTDROP Team <support@nxtdrop.com>';
 
-        $subject = "Win A Pair of Shoes FOR FREE!!!";
+        $subject = "Reminder: Win A Pair of Shoes FOR FREE!!!";
 
         $to = $row['email'];
 
